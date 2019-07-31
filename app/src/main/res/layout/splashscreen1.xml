@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#2D3340">
+
+    <ImageView
+        android:id="@+id/planet"
+        android:layout_width="232dp"
+        android:layout_height="232dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="89dp"
+        android:background="@drawable/planet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="66dp"
+        android:fontFamily="@font/ailerons"
+        android:text="Space Welist"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="76dp"
+        android:fontFamily="@font/ubuntu"
+        android:text="Let's learn about space"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/planet"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_nextss1"
+        android:layout_width="221dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="107dp"
+        android:background="@drawable/custombutton1"
+        android:onClick="onClick"
+        android:text="NEXT"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>
