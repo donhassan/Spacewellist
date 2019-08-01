@@ -1,5 +1,5 @@
 
-package com.example;
+package donnywelist.wordpress.spacewelistbeta.model;
 
 import java.util.HashMap;
 import java.util.Map;
