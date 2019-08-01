@@ -4,7 +4,7 @@ package donnywelist.wordpress.spacewelistbeta.model;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Result {
+public class ResultEnsiklopedia {
 
     private String iD;
     private String nama;

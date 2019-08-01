@@ -1,5 +1,5 @@
 
-package com.example;
+package donnywelist.wordpress.spacewelistbeta.model;
 
 import java.util.HashMap;
 import java.util.List;
@@ -10,7 +10,7 @@ public class Ensiklopediamodels {
     private String status;
     private String message;
     private Integer total_result;
-    private List<Result> results = null;
+    private List<ResultEnsiklopedia> results = null;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
     public String getStatus() {
@@ -37,11 +37,11 @@ public class Ensiklopediamodels {
         this.total_result = total_result;
     }
 
-    public List<Result> getResults() {
+    public List<ResultEnsiklopedia> getResults() {
         return results;
     }
 
-    public void setResults(List<Result> results) {
+    public void setResults(List<ResultEnsiklopedia> results) {
         this.results = results;
     }
 
